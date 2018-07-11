@@ -20,11 +20,6 @@ public class BaseTestClass {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    public static void waitForElementDissapear(WebElement element, WebDriver driver) {
-        WebDriverWait wait = new WebDriverWait(driver,20);
-        wait.until(ExpectedConditions.visibilityOf(element));
-    }
-
     @BeforeTest
     public void beforeTest () throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C://chromedriver.exe");
