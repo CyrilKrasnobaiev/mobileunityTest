@@ -3,14 +3,10 @@
 
 <suite name="Example suite">
 
-    <parameter name="browser" value="chrome"/>
-    <parameter name="server" value="localhost"/>
-
     <test name="OpenQAAutomation">
         <classes>
-            <class name="OpenQAAutomationVacancyTest"/>
+            <class name="SendCVErrorMessageTest"/>
         </classes>
     </test>
-
 
 </suite>
