@@ -7,7 +7,7 @@ public class SendCVErrorMessageTest extends BaseTestClass implements HelpInterfa
     @Test
     public void test_001() {
 
-//        waitForElementVisible(mobilunity.vacancyTitle, driver);
+        waitForElementVisible(mobilunity.vacancyTitle, driver);
 
         //compare page title with vacancy title
         assertEquals(mobilunity.vacancyTitle.getText().toLowerCase(), driver.getTitle().replace(" | Mobilunity", "").toLowerCase());
