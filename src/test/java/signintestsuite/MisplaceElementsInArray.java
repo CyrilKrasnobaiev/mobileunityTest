@@ -1,6 +1,6 @@
 package signintestsuite;
 
-public class misplaceElementsInArray {
+public class MisplaceElementsInArray {
 
     public  static void main(String[] args) {
         String[] array = {"first", "second", "third", "fourth", "fifth"};
